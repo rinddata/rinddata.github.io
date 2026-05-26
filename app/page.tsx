@@ -1,4 +1,4 @@
-import Image from "next/image";
+const assetBasePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 function Header() {
   return (
@@ -23,13 +23,10 @@ function Header() {
 function HeroBackground() {
   return (
     <div className="hero-background pointer-events-none absolute inset-0 z-0" aria-hidden="true">
-      <Image
-        src="/rinddata-hero-composed-v5.jpeg"
+      <img
+        src={`${assetBasePath}/rinddata-hero-composed-v5.jpeg`}
         alt=""
-        fill
-        priority
-        sizes="100vw"
-        className="object-cover"
+        className="absolute inset-0 h-full w-full object-cover"
       />
     </div>
   );
