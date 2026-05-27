@@ -19,6 +19,9 @@ const sans = IBM_Plex_Sans({
 export const metadata: Metadata = {
   title: "rinddata",
   description: "Simulation engines for complex datasets.",
+  icons: {
+    icon: [{ url: "/favicon.png", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({
