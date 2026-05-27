@@ -40,13 +40,17 @@ function HeroCopy() {
         <span className="absolute left-0 top-1/2 h-px w-full bg-citrus/50" />
       </div>
       <p className="font-sansFine text-[9px] font-semibold uppercase tracking-[0.28em] text-ink/45">
-        Simulation engines for complex datasets
+        Pushing data to its limits
       </p>
       <h1 className="mt-[25px] font-serifDisplay text-[72px] font-light leading-[0.92] tracking-[-0.025em] text-ink max-xl:text-[64px] max-md:text-[54px]">
         Coming
         <br />
         soon.
       </h1>
+      <p className="mt-8 max-w-[360px] font-sansFine text-[15px] leading-[1.6] text-ink/62 max-md:text-[14px]">
+        Rinddata builds simulation engines for complex datasets, helping teams
+        stress-test systems with data at the edge of what models can handle.
+      </p>
     </section>
   );
 }
